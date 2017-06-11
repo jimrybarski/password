@@ -1,0 +1,9 @@
+[package]
+name = "password"
+version = "0.1.0"
+authors = ["Jim Rybarski <jim@rybarski.com>"]
+
+[dependencies]
+rust-crypto = "^0.2"
+rustc-serialize = "0.3.22"
+rpassword = "0.4.0"
