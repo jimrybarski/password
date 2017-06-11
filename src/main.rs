@@ -18,7 +18,6 @@ fn main() {
                  .replace("+", "")
                  .replace("=", "");
     let (result2, _) = result.split_at(16);
-
     let stdout = io::stdout();
     let mut handle = stdout.lock();
     handle.write(result2.as_bytes()).unwrap();
